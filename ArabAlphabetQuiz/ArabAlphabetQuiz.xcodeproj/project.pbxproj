@@ -16,6 +16,9 @@
 		54A2D05E1D6A5D86005D0D8F /* ArabAlphabetQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A2D05D1D6A5D86005D0D8F /* ArabAlphabetQuizUITests.swift */; };
 		54A2D06D1D6A5DFD005D0D8F /* ArabicAbjad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54A2D06C1D6A5DFD005D0D8F /* ArabicAbjad.plist */; };
 		54A2D06F1D6ACE53005D0D8F /* ArabicNumbers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54A2D06E1D6ACE53005D0D8F /* ArabicNumbers.plist */; };
+		54A2D0731D6B01AD005D0D8F /* Array+Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A2D0711D6B01AD005D0D8F /* Array+Shuffle.swift */; };
+		54A2D0741D6B01AD005D0D8F /* UIColor+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A2D0721D6B01AD005D0D8F /* UIColor+CustomColors.swift */; };
+		54A2D0761D6B0368005D0D8F /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A2D0751D6B0368005D0D8F /* Configuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		54A2D05F1D6A5D86005D0D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54A2D06C1D6A5DFD005D0D8F /* ArabicAbjad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ArabicAbjad.plist; sourceTree = "<group>"; };
 		54A2D06E1D6ACE53005D0D8F /* ArabicNumbers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ArabicNumbers.plist; sourceTree = "<group>"; };
+		54A2D0711D6B01AD005D0D8F /* Array+Shuffle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Shuffle.swift"; sourceTree = "<group>"; };
+		54A2D0721D6B01AD005D0D8F /* UIColor+CustomColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColors.swift"; sourceTree = "<group>"; };
+		54A2D0751D6B0368005D0D8F /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,8 @@
 		54A2D03C1D6A5D86005D0D8F /* ArabAlphabetQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				54A2D0751D6B0368005D0D8F /* Configuration.swift */,
+				54A2D0701D6B0172005D0D8F /* Extentions */,
 				54A2D06B1D6A5DB0005D0D8F /* Resources */,
 				54A2D03D1D6A5D86005D0D8F /* AppDelegate.swift */,
 				54A2D03F1D6A5D86005D0D8F /* ViewController.swift */,
@@ -138,6 +146,15 @@
 			);
 			name = Resources;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		54A2D0701D6B0172005D0D8F /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				54A2D0711D6B01AD005D0D8F /* Array+Shuffle.swift */,
+				54A2D0721D6B01AD005D0D8F /* UIColor+CustomColors.swift */,
+			);
+			name = Extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +291,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				54A2D0401D6A5D86005D0D8F /* ViewController.swift in Sources */,
+				54A2D0761D6B0368005D0D8F /* Configuration.swift in Sources */,
+				54A2D0731D6B01AD005D0D8F /* Array+Shuffle.swift in Sources */,
+				54A2D0741D6B01AD005D0D8F /* UIColor+CustomColors.swift in Sources */,
 				54A2D03E1D6A5D86005D0D8F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
