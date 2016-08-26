@@ -19,6 +19,7 @@
 		54A2D0731D6B01AD005D0D8F /* Array+Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A2D0711D6B01AD005D0D8F /* Array+Shuffle.swift */; };
 		54A2D0741D6B01AD005D0D8F /* UIColor+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A2D0721D6B01AD005D0D8F /* UIColor+CustomColors.swift */; };
 		54A2D0761D6B0368005D0D8F /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A2D0751D6B0368005D0D8F /* Configuration.swift */; };
+		54C603B91D6E24BB00A6CEC1 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C603B81D6E24BB00A6CEC1 /* MainMenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		54A2D0711D6B01AD005D0D8F /* Array+Shuffle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Shuffle.swift"; sourceTree = "<group>"; };
 		54A2D0721D6B01AD005D0D8F /* UIColor+CustomColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColors.swift"; sourceTree = "<group>"; };
 		54A2D0751D6B0368005D0D8F /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		54C603B81D6E24BB00A6CEC1 /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainMenuViewController.swift; path = ../MainMenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				54A2D06B1D6A5DB0005D0D8F /* Resources */,
 				54A2D03D1D6A5D86005D0D8F /* AppDelegate.swift */,
 				54A2D03F1D6A5D86005D0D8F /* ViewController.swift */,
+				54C603B81D6E24BB00A6CEC1 /* MainMenuViewController.swift */,
 				54A2D0411D6A5D86005D0D8F /* Main.storyboard */,
 				54A2D0441D6A5D86005D0D8F /* Assets.xcassets */,
 				54A2D0461D6A5D86005D0D8F /* LaunchScreen.storyboard */,
@@ -290,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54C603B91D6E24BB00A6CEC1 /* MainMenuViewController.swift in Sources */,
 				54A2D0401D6A5D86005D0D8F /* ViewController.swift in Sources */,
 				54A2D0761D6B0368005D0D8F /* Configuration.swift in Sources */,
 				54A2D0731D6B01AD005D0D8F /* Array+Shuffle.swift in Sources */,
@@ -521,6 +525,7 @@
 				54A2D0641D6A5D86005D0D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54A2D0651D6A5D86005D0D8F /* Build configuration list for PBXNativeTarget "ArabAlphabetQuizTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +534,7 @@
 				54A2D0671D6A5D86005D0D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54A2D0681D6A5D86005D0D8F /* Build configuration list for PBXNativeTarget "ArabAlphabetQuizUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +543,7 @@
 				54A2D06A1D6A5D86005D0D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
