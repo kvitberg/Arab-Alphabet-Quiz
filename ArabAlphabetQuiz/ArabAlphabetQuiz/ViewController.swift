@@ -9,7 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    //TODO: Add Score and Highscore
 
+    @IBOutlet weak var scoreLabel: UILabel!
+    @IBOutlet weak var highscoreLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         loadQuizData()
@@ -19,6 +23,18 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(true)
+        
+        navigationController?.setNavigationBarHidden(true, animated: false)
+        let score = NSUserDefaults.standardUserDefaults().integerForKey("score")
+        let highscore = NSUserDefaults.standardUserDefaults().integerForKey("highscore")
+        
+        scoreLabel.text = "Score: \(score)"
+        highscoreLabel.text = "Highscore: \(highscore)"
+        
+        
     }
     func loadQuizData(){
 
@@ -31,14 +47,7 @@ class ViewController: UIViewController {
         let pathArabicNumbers = NSBundle.mainBundle().pathForResource("ArabicNumbers", ofType: "plist")
         let dictArabicNumbers = NSDictionary(contentsOfFile: pathArabicNumbers!)
         arabNumbersArray = dictArabicNumbers!["Questions"]!.mutableCopy() as? Array
-        
-        /*
-         Todo:
-         -Add path and files for Kanji
-         -Add path and files for Katakana
-         */
-        
-        
+       
         print(arabAlphabethArray)
         
     
